@@ -1,0 +1,18 @@
+
+.top-cont h3{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Montserrat";
+    color: rgba(0, 0, 0, 1);
+    line-height: 20px;
+}
+.top-cont p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Montserrat";
+    line-height: 27px;
+    color: rgba(0, 0, 0, 0.63);
+
+}
+
+

@@ -1,0 +1,99 @@
+.home-all {
+  margin-top: 143px;
+  margin-bottom: 436px;
+}
+.homeh3 {
+  font-weight: 500;
+  font-size: 12px;
+  font-family: "Montserrat";
+  text-align: center;
+  color: rgba(47, 79, 255, 1);
+}
+.homeh2 {
+  font-weight: 900;
+  font-size: 55px;
+  font-family: "Montserrat";
+  text-align: center;
+  line-height: 66px;
+  color: rgba(0, 0, 0, 1);
+}
+.homep {
+  font-weight: 400;
+  font-size: 16px;
+  font-family: "Montserrat";
+  text-align: center;
+  line-height: 27px;
+  color: rgba(0, 0, 0, 0.63);
+  padding-top: 23px;
+}
+.home-cont {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin-top: 44px;
+  margin-bottom: 436px;
+}
+.home-email {
+  width: 30%;
+  height: 64px;
+  font-size: 13px;
+  font-weight: 400;
+  color: rgba(111, 111, 111, 1);
+  padding-left: 28px;
+  border-radius: 6px;
+  border: none;
+}
+.home-btn {
+  padding: 18px 34px;
+  background-image: linear-gradient(rgba(47, 79, 255, 1), rgba(0, 133, 255, 1));
+  font-weight: 500;
+  font-size: 14px;
+  font-family: "Montserrat";
+  border: none;
+  border-radius: 7px;
+  position: absolute;
+  right: 35.3%;
+  top: 9%;
+  color: rgba(251, 251, 255, 1);
+}
+.heroimg {
+  position: absolute;
+  bottom: -435px;
+}
+.heroimg-cont {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.minitext-cont{
+    display: flex;
+    gap: 80px;
+}
+.text-cont h2{
+    font-size: 13px;
+    font-weight: 500;
+    font-family: "Montserrat";
+    color: rgba(47, 79, 255, 1);
+}
+.text-cont h3{
+    font-size: 34px;
+    font-weight: 700;
+    font-family: "Montserrat";
+    color: rgba(0, 0, 0, 1);
+    line-height: 44px;
+}
+.text-cont p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Montserrat";
+    line-height: 27px;
+    color: rgba(0, 0, 0, 0.63);
+
+}
+.text-cont{
+    padding: 230px 220px;
+}
+.cardbox{
+    display: flex;
+    gap: 77px;
+}
