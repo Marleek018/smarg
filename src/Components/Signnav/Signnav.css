@@ -1,0 +1,17 @@
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.nav-container ul{
+  list-style: none; 
+  display: flex; 
+  gap: 20px;
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(48, 48, 48, 1);
+  cursor: pointer;
+}

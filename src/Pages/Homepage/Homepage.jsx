@@ -9,6 +9,8 @@ import Review from '../../Components/Review/Review';
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Navbar from '../../Components/Navbar/Navbar';
+import Footer from '../../Components/Footer/Footer';
 
 const Homepage = () => {
   const cardDetails = [
@@ -58,63 +60,67 @@ const Homepage = () => {
      slidesToScroll: 1,
    };
   return (
-    <div className="home-all">
-      <h3 className="homeh3">Helping digital products</h3>
-      <h2 className="homeh2">
-        The workplace for <br /> remote contracts gigs.
-      </h2>
-      <p className="homep">
-        Smarg is a remote contract facilitator that aims to secure, manage{" "}
-        <br /> and ensure quality delivery for freelancers
-      </p>
-      <div className="home-cont">
-        <input
-          className="home-email"
-          type="email"
-          placeholder="Enter Email Address"
-        />
-        <button className="home-btn">Get Started</button>
-      </div>
-      <div className="heroimg-cont">
-        <img className="heroimg" src={image1} alt="IMG" />
-      </div>
-      <Subhero />
-      <div className="text-cont">
-        <h2>Helping digital</h2>
-        <div className="minitext-cont">
-          <div>
-            <h3>
-              Talk of the Best <br /> Platform Anywhere
-            </h3>
+    <section>
+      <Navbar/>
+      <div className="home-all">
+        <h3 className="homeh3">Helping digital products</h3>
+        <h2 className="homeh2">
+          The workplace for <br /> remote contracts gigs.
+        </h2>
+        <p className="homep">
+          Smarg is a remote contract facilitator that aims to secure, manage{" "}
+          <br /> and ensure quality delivery for freelancers
+        </p>
+        <div className="home-cont">
+          <input
+            className="home-email"
+            type="email"
+            placeholder="Enter Email Address"
+          />
+          <button className="home-btn">Get Started</button>
+        </div>
+        <div className="heroimg-cont">
+          <img className="heroimg" src={image1} alt="IMG" />
+        </div>
+        <Subhero />
+        <div className="text-cont">
+          <h2>Helping digital</h2>
+          <div className="minitext-cont">
+            <div>
+              <h3>
+                Talk of the Best <br /> Platform Anywhere
+              </h3>
+            </div>
+            <p>
+              The status of a client or freelancer is based on who created the
+              contract or <br /> who the role is assigned to. In that regard, no
+              separate client or freelancer <br /> dashboard. Based on one’s
+              status on the contract, features would be <br /> enabled or hidden
+              on the dashboard.
+            </p>
           </div>
-          <p>
-            The status of a client or freelancer is based on who created the
-            contract or <br /> who the role is assigned to. In that regard, no
-            separate client or freelancer <br /> dashboard. Based on one’s
-            status on the contract, features would be <br /> enabled or hidden
-            on the dashboard.
-          </p>
+          <div className="cardbox">
+            {cardDetails.map((ele, i) => {
+              return <Card element={ele} />;
+            })}
+          </div>
         </div>
-        <div className="cardbox">
-          {cardDetails.map((ele, i) => {
-            return <Card element={ele} />;
-          })}
+        <Section />
+        <div className="heading">
+          <h3>Helping digital</h3>
+          <h4>
+            What Users Say <br /> About Us
+          </h4>
         </div>
-      </div>
-      <Section />
-      <div className='heading'>
-        <h3>Helping digital</h3>
-        <h4>
-          What Users Say <br /> About Us
-        </h4>
-      </div>
 
-      <Slider {...settings}>
-        {userReview.map((rev, i) => {
-          return <Review key={i} review={rev} />;
-        })}
-      </Slider>
-    </div>
+        <Slider {...settings}>
+          {userReview.map((rev, i) => {
+            return <Review key={i} review={rev} />;
+          })}
+        </Slider>
+      </div>
+      <Footer/>
+    </section>
   );
 }
 
