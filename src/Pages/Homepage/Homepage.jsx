@@ -4,6 +4,7 @@ import image1 from "../../assets/sample-image.png";
 import Subhero from '../../Components/SubHero/Subhero';
 import Card from '../../Components/Card/Card';
 import vec5 from "../../assets/vec5.png";
+import Section from '../../Components/Section/Section';
 
 const Homepage = () => {
   const cardDetails = [
@@ -72,6 +73,7 @@ const Homepage = () => {
           })}
         </div>
       </div>
+      <Section/>
     </div>
   );
 }

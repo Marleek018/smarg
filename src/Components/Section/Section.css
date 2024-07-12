@@ -1,0 +1,66 @@
+.wholesection{
+    background-color: rgba(244, 250, 255, 1);
+    padding-top: 110px;
+    padding-bottom: 110px;
+}
+.top-box h3 {
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 36px;
+  color: rgba(0, 0, 0, 1);
+  font-family: "Montserrat";
+  text-align: center;
+  padding-bottom: 20px;
+}
+.top-box p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: rgba(0, 0, 0, 0.63);
+  font-family: "Montserrat";
+  text-align: center;
+}
+.topbox-cont {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+  margin-top: 90px;
+}
+.topbox-cont h3 {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  color: rgba(47, 79, 255, 1);
+  font-family: "Montserrat";
+  padding-bottom: 7px;
+}
+.topbox-cont h4{
+    font-size: 35px;
+  font-weight: 700;
+  line-height: 40px;
+  color: rgba(0, 0, 0, 1);
+  font-family: "Montserrat";
+  padding-bottom: 20px;
+}
+.topbox-cont p{
+    font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+  color: rgba(0, 0, 0, 0.63);
+  font-family: "Montserrat";
+  padding-bottom: 20px;
+}
+.topbox-cont button{
+     padding: 18px 34px;
+    background-image: linear-gradient(rgba(47, 79, 255, 1), rgba(0, 133, 255, 1));
+  font-weight: 500;
+  font-size: 14px;
+  font-family: "Montserrat";
+  border: none;
+  border-radius: 7px;
+  color: rgba(251, 251, 255, 1);
+}
+.inbox-cont{
+    padding-top: 96px;
+    padding-bottom: 96px;
+}

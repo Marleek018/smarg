@@ -74,6 +74,7 @@
     font-weight: 500;
     font-family: "Montserrat";
     color: rgba(47, 79, 255, 1);
+    padding-bottom: 13px;
 }
 .text-cont h3{
     font-size: 34px;
