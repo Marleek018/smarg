@@ -5,6 +5,10 @@ import Subhero from '../../Components/SubHero/Subhero';
 import Card from '../../Components/Card/Card';
 import vec5 from "../../assets/vec5.png";
 import Section from '../../Components/Section/Section';
+import Review from '../../Components/Review/Review';
+import Slider from 'react-slick';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 const Homepage = () => {
   const cardDetails = [
@@ -29,6 +33,30 @@ const Homepage = () => {
       text: "That the job was done as expected and money is released accordingly.",
     },
   ];
+  const userReview = [
+    {
+      comment:
+        "“A bit like building a house, from floor plans to final coat of paint. Our process is very flexible”",
+      user: "Julie - Product Designer ",
+    },
+    {
+      comment:
+        "“A bit like building a house, from floor plans to final coat of paint. Our process is very flexible”",
+      user: "Julie - Product Designer ",
+    },
+    {
+      comment:
+        "“A bit like building a house, from floor plans to final coat of paint. Our process is very flexible”",
+      user: "Julie - Product Designer ",
+    }
+  ];
+   const settings = {
+     dots: true,
+     infinite: false,
+     speed: 500,
+     slidesToShow: 1,
+     slidesToScroll: 1,
+   };
   return (
     <div className="home-all">
       <h3 className="homeh3">Helping digital products</h3>
@@ -73,7 +101,19 @@ const Homepage = () => {
           })}
         </div>
       </div>
-      <Section/>
+      <Section />
+      <div className='heading'>
+        <h3>Helping digital</h3>
+        <h4>
+          What Users Say <br /> About Us
+        </h4>
+      </div>
+
+      <Slider {...settings}>
+        {userReview.map((rev, i) => {
+          return <Review key={i} review={rev} />;
+        })}
+      </Slider>
     </div>
   );
 }

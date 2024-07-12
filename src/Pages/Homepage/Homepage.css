@@ -98,3 +98,19 @@
     display: flex;
     gap: 77px;
 }
+.heading h3{
+  font-size: 13px;
+  font-weight: 500;
+  color: rgba(47, 79, 255, 1);
+  font-family: "Montserrat";
+}
+.heading h4{
+  font-size: 34px;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 1);
+  font-family: "Montserrat";
+}
+.heading{
+  margin-left: 200px;
+  margin-top: 80px;
+}

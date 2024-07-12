@@ -1,0 +1,21 @@
+.review-cont {
+    width: 450px;
+    margin: auto;
+    text-align: center;
+    padding-top: 80px;
+}
+.review-cont h3{
+    font-size: 24px;
+    font-family: "Montserrat";
+    line-height:35px ;
+    font-family: 400;
+    padding-bottom: 20px;
+    color: rgba(0, 15, 48, 1);
+}
+.review-cont h5{
+    font-size: 14px;
+    font-family: "Montserrat";
+    font-weight: 500;
+    color: rgba(0, 15, 48, 1);
+    padding-bottom: 40px;
+}

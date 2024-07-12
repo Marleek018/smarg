@@ -16,17 +16,20 @@
 .footer {
   display: flex;
   justify-content: space-around;
+  margin-top: 150px;
+  margin-bottom: 50px;
 }
 .footer-social {
   display: flex;
   gap: 20px;
 }
 .top-footer {
+ 
     padding-top: 46px;
     padding-bottom: 42px;
   border: 1px solid;
   width: 60%;
-  margin: auto;
+  margin: 0 auto;
   border-radius: 15px;
   border: none;
     background-image: linear-gradient(rgba(47, 79, 255, 1), rgba(0, 133, 255, 1));
