@@ -1,0 +1,64 @@
+.mother-container{
+    display: flex;
+}
+.left-container{
+    display: flex;
+    gap: 66px;
+    background-color:rgba(37, 34, 167, 1);
+    width: 52%;
+    border-radius: 15px;
+    padding: 41px 230px 0px 64px;
+}
+.left-container h3{
+    font-weight: 300;
+    font: 21px;
+    font-family: "Montserrat";
+    line-height: 30px;
+    color: rgba(255, 255, 255, 1);
+    padding-bottom: 23px;
+    
+}
+.left-container span{
+    font-weight: 700;
+}
+.left-container button{
+    width: 176px;
+    height: 50px;
+    font-weight: 600;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(255, 255, 255, 0.22);
+    border-radius: 7px;
+    border: none;
+}
+.down-container{
+    display: flex;
+    gap: 14px;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: "Montserrat";
+    color: rgba(4, 4, 3, 1);
+}
+.top-down-container {
+    width: 180px;
+    height: 108px;
+    border: 1px solid blue;
+    border-radius: 7px;
+    padding: 25px  23px 25px 14px;
+    cursor: pointer;
+}
+.top-down-container p{
+    font-size: 13px;
+    font-family: "Montserrat";
+    font-weight: 400;
+    color: rgba(4, 4, 3, 0.8);
+    padding-top: 26px;
+}
+.summary-text{
+    font-weight: 700;
+    font-size: 18px;
+    font-family: "Montserrat";
+    color: rgba(4, 4, 3, 1);
+    padding-bottom: 30px;
+    padding-top: 60px;
+}

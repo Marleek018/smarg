@@ -1,0 +1,56 @@
+.dashnav-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+  border: 1px solid rgba(255, 255, 255, 1);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+  padding-bottom: 10px;
+}
+.dash-logo {
+  width: 75px;
+  height: 30px;
+  padding-top: 10px;
+}
+.dashnav-container ul {
+  display: flex;
+  gap: 70px;
+  list-style: none;
+  font-size: 14px;
+  font-family: "Montserrat";
+  color: rgba(4, 4, 3, 0.75);
+  font-weight: 400;
+  padding-top: 10px;
+  cursor: pointer;
+}
+.dashnav-container input {
+  width: 220px;
+  height: 40px;
+  font-family: "Montserrat";
+  padding-left: 20px;
+  border: none;
+}
+.search-container {
+  position: relative;
+}
+.search-icon {
+  position: absolute;
+  left: 0%;
+  top: 22%;
+}
+.user-container {
+  display: flex;
+  gap: 20px;
+}
+.user-flex {
+  display: flex;
+}
+.user-flex select{
+    border: 0.5px solid white;
+}
+.notification {
+  padding-top: 13px;
+  font-size: 36px;
+  cursor: pointer;
+}
