@@ -1,5 +1,5 @@
 import React from 'react'
-import Signnav from '../Signnav/Signnav'
+import Signnav from '../../Components/Signnav/Signnav';
 import './Signin.css'
 
 const Signin = () => {

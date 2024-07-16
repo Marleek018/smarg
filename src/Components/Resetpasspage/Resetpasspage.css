@@ -1,9 +1,11 @@
 .password-reset-container {
-  border: 1px solid blue;
   width: 36%;
   margin: auto;
    padding: 28px 56px 46px;
    margin-top: 40px;
+   box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(255, 255, 255, 1);
+  border-radius: 8px;
 }
 .password-reset-container h3 {
   font-size: 22px;

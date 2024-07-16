@@ -47,4 +47,9 @@
    cursor: pointer;
    
 }
+.link{
+  font-weight: 500;
+  color: #FFFFFF;
+  text-decoration: none;
+}
 

@@ -3,6 +3,7 @@ import "./Subhero.css";
 import vec1 from '../../assets/vec1.png'
 import vec2 from "../../assets/vec2.png";
 import vec3 from "../../assets/vec3.png";
+import { Link } from "react-router-dom";
 
 
 const Subhero = () => {
@@ -37,7 +38,9 @@ const Subhero = () => {
         </p>
       </div>
       <div className="btn-cont">
-        <button className="btn1">Get Started</button>
+        <button className="btn1">
+          <Link to="signup">Get Started</Link>
+        </button>
         <button className="btn2">Download Templace</button>
       </div>
     </div>

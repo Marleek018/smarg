@@ -1,0 +1,96 @@
+.sidebar{
+    width: 350px;
+
+}
+.btn-container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+    margin-top: 32px;
+}
+.top-sidebar h3{
+    font-weight: 400;
+    font-size: 18px;
+    font-family: "Montserrat";
+    color: rgba(7, 1, 70, 0.64);
+    text-align: center;
+}
+.top-sidebar p {
+    font-size: 14px;
+    font-weight: 600;
+    color: rgba(7, 160, 85, 1);
+    font-family: "Montserrat";
+    text-align: center;
+    padding-top: 26px;
+    
+}
+.top-sidebar h4{
+    font-weight: 700;
+    font-size: 25px;
+    font-family: "Montserrat";
+    color: rgba(7, 1, 70, 1);
+    padding-top: 17px;
+    text-align: center;
+}
+.top-sidebar button{
+    width: 160px;
+    height: 50px;border-radius: 7px;
+    border: none;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(251, 251, 255, 1);
+    background-color: rgba(37, 34, 167, 1);
+    cursor: pointer;
+    
+    
+}
+.bottom-sidebar h3{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Montserrat";
+    color: rgba(4, 4, 3, 1);
+    padding-bottom: 30px;
+}
+.bottom-sidebar p{
+font-size: 16px;
+font-weight: 400;
+font-family: "Montserrat";
+line-height: 21px;
+color: rgba(40, 39, 64, 1);
+}
+.bottom-sidebar button{
+    width: 128px;
+    height: 35px;
+    font-weight: 500;
+    font-size: 14px;
+    color: rgba(37, 34, 167, 1);
+    background-color: rgba(237, 241, 255, 1);
+    border: none;
+    border-radius: 7px;
+    margin-top: 9px;
+    cursor: pointer;
+}
+.sidebar-box{
+    display: flex;
+    gap: 18px;
+}
+.sidebar-box span{
+    background-color: rgba(255, 235, 236, 1);
+    color: rgba(215, 25, 32, 1);
+     padding: 6px;
+     border-radius: 23px;
+}
+.sidebar-box img{
+    width: 36px;
+    height: 36px;
+   
+}
+.top-sidebar-box{
+    border: 1px solid rgba(255, 255, 255, 1);
+    width: 325px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.05);
+    margin-bottom: 13px;
+    padding: 18px 12px;
+}
+

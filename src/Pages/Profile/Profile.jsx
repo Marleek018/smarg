@@ -8,12 +8,19 @@ import p3 from "../../assets/pvec3.png";
 import p4 from "../../assets/pvec4.png";
 import Dashnav from '../../Components/Dashboardnav/Dashnav'
 import Barcharts from '../../Components/Barcharts/Barcharts';
+import Sidebar from '../../Components/Sidebar/Sidebar';
+import { CircularProgress, CircularProgressLabel } from "@chakra-ui/react";
+
+
+
+
 const Dashboard = () => {
+
   return (
     <div>
       <Dashnav />
-      <section>
-        <div>
+      <section className="full-bar">
+        <div className="full-left-container">
           <div className="left-container">
             <img src={profileimg} alt="IMAGE" />
             <div>
@@ -27,7 +34,7 @@ const Dashboard = () => {
             </div>
           </div>
           <div>
-            <h2 className='summary-text'>Activities Summary</h2>
+            <h2 className="summary-text">Activities Summary</h2>
             <div className="mother-container">
               <div className="top-down-container">
                 <div className="down-container">
@@ -67,12 +74,27 @@ const Dashboard = () => {
               </div>
             </div>
           </div>
+          <div className="select-box">
+            <h4>Contract Analytics</h4>
+            <select name="" id="">
+              <option value="">Last 9 Nonth</option>
+              <option value="">Last 6 Nonth</option>
+              <option value="">Last 3 Nonth</option>
+            </select>
+          </div>
+          <div className="chart-box">
+            <Barcharts />
+            <div className='progressbar'>
+              <CircularProgress value={64} color="green" size="100px" height='100px'>
+                <CircularProgressLabel>64%</CircularProgressLabel>
+              </CircularProgress>
+            </div>
+          </div>
+        </div>
+        <div>
+          <Sidebar />
         </div>
       </section>
-
-
-<Barcharts/>
-    
     </div>
   );
 }
