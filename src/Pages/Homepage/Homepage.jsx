@@ -11,8 +11,42 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Navbar from '../../Components/Navbar/Navbar';
 import Footer from '../../Components/Footer/Footer';
+import { useState } from 'react';
+import * as Yup from 'yup'
+import { useFormik } from 'formik';
+
 
 const Homepage = () => {
+  const initialValues = {
+    email: '',
+  }
+  // const [emailValue, setEmailValue] = useState({
+  //   email:""
+  // })
+  // const handleChange = (e) =>{
+  //   const { name, value } = e.target;
+  //   setEmailValue({
+  //     [name]: value,
+  //   });
+  // }
+  const schema = Yup.object({
+    email: Yup.string()
+      .required("Email is required")
+      .email("invalid Email format"),
+  });
+  const onSubmit = async (values) => {
+   console.log(values);
+
+   
+
+  }
+
+  const {values, handleSubmit, handleChange, errors, touched} = useFormik({
+    initialValues,
+    validationSchema: schema,
+    onSubmit
+  })
+  // console.log(errors);
   const cardDetails = [
     {
       img: vec5,
@@ -61,7 +95,7 @@ const Homepage = () => {
    };
   return (
     <section>
-      <Navbar/>
+      <Navbar />
       <div className="home-all">
         <h3 className="homeh3">Helping digital products</h3>
         <h2 className="homeh2">
@@ -71,14 +105,25 @@ const Homepage = () => {
           Smarg is a remote contract facilitator that aims to secure, manage{" "}
           <br /> and ensure quality delivery for freelancers
         </p>
-        <div className="home-cont">
-          <input
-            className="home-email"
-            type="email"
-            placeholder="Enter Email Address"
-          />
-          <button className="home-btn">Get Started</button>
-        </div>
+        <form onSubmit={handleSubmit} className="form-cont">
+         
+          <div>
+            <input
+              className=""
+              name="email"
+              value={values.email}
+              onChange={handleChange}
+              type="email"
+              placeholder="Enter Email Address"
+            />
+            {errors.email && touched.email ? <p>{errors.email}</p> : ""}
+          </div>
+
+          <button type="submit" className="">
+            Get Started
+          </button>
+          
+        </form>
         <div className="heroimg-cont">
           <img className="heroimg" src={image1} alt="IMG" />
         </div>
@@ -119,7 +164,7 @@ const Homepage = () => {
           })}
         </Slider>
       </div>
-      <Footer/>
+      <Footer />
     </section>
   );
 }

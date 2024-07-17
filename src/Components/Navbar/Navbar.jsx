@@ -2,6 +2,8 @@ import React from 'react'
 import logo from "../../assets/logo.png"
 import "./Navbar.css"
 import { Link } from 'react-router-dom'
+import { GiHamburgerMenu } from "react-icons/gi";
+
 
 const Navbar = () => {
   return (
@@ -21,11 +23,12 @@ const Navbar = () => {
           </Link>
         </ul>
         <ul>
-          <Link className='link' to='signup'>
+          <Link className="link" to="signup">
             <li className="gs-btn">Get Started</li>
           </Link>
         </ul>
       </div>
+      <GiHamburgerMenu className='hamburger' />
     </div>
   );
 }
