@@ -1,8 +1,23 @@
-# React + Vite
+Smarg is a web platform designed to help freelancers find work, with a focus on remote gig opportunities. It connects freelancers with clients who are looking for skilled professionals for various short-term and long-term projects.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. User authentication with Google Sign-In.
+2. Profile creation and management for freelancers.
+3. Job search functionality with filters for remote  work.
+4. Job posting functionality for clients.
+5. Real-time chat between freelancers and clients.
+6. Secure payment gateway integration.
+7. Review and rating system for freelancers and clients.
+
+Demo
+Check out the live demo of Smarg at https://smarg-sand.vercel.app/
+
+
+License
+**********
+
+Contact
+Your Name - Abdulmarleek018@yahoo.com
+Project Link: https://github.com/Marleek018/smarg.git
