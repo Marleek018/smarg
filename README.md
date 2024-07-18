@@ -18,6 +18,6 @@ Check out the live demo of Smarg at https://smarg-sand.vercel.app/
 License
 **********
 
-Contact
-Your Name - Abdulmarleek018@yahoo.com
+Contact- Abdulmarleek018@yahoo.com
+Your Name - Abdul
 Project Link: https://github.com/Marleek018/smarg.git
