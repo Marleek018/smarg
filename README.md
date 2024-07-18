@@ -19,5 +19,5 @@ License
 **********
 
 Contact- Abdulmarleek018@yahoo.com
-Your Name - Abdul
+Abdul
 Project Link: https://github.com/Marleek018/smarg.git
