@@ -14,9 +14,11 @@ import Footer from '../../Components/Footer/Footer';
 import { useState } from 'react';
 import * as Yup from 'yup'
 import { useFormik } from 'formik';
+import { useNavigate } from 'react-router-dom';
 
 
 const Homepage = () => {
+  const navigate = useNavigate()
   const initialValues = {
     email: '',
   }
@@ -36,6 +38,7 @@ const Homepage = () => {
   });
   const onSubmit = async (values) => {
    console.log(values);
+   navigate('/confirmation')
 
    
 

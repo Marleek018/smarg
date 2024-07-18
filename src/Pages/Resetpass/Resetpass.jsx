@@ -1,5 +1,5 @@
 import React from 'react'
-import Signnav from '../Signnav/Signnav';
+import Signnav from '../../Components/Signnav/Signnav';
 import './Resetpass.css'
 import resetimg from '../../assets/signup-img.png'
 

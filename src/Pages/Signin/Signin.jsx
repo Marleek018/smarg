@@ -25,7 +25,7 @@ const Signin = () => {
       </div>
       <div className='not-a-mem'>
         <p>
-          Not a member? <button>Sign Up</button>
+          Not a member? <button >Sign Up</button>
         </p>
       </div>
     </div>
