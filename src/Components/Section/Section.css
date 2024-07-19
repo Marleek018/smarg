@@ -65,9 +65,13 @@
     padding-bottom: 96px;
 }
 @media screen and (max-width: 769px) {
-  .section-image{
-    display: none;
-  }
+ 
+.topbox-cont {
+  display: block;
+  margin: 0 auto;
+  gap: 70px;
+  margin-top: 50px;
+}
 
 }
   

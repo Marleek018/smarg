@@ -123,5 +123,13 @@ width: 316px;
   .heroimg{
     display: none;
   }
+  .cardbox{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.minitext-cont{
+  display: block;
+}
   
 }
