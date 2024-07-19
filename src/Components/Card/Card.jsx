@@ -7,7 +7,6 @@ const Card = ({element}) => {
         <img src={element.img} alt="IMAGE" />
         <h3>{element.heading}</h3>
         <p>{element.text}</p>
-     
     </div>
   );
 }

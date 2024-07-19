@@ -55,4 +55,23 @@
 .hamburger{
   margin-top: 37px;
   font-size: 34px;
+  display: none;
+}
+
+@media screen and (max-width: 769px) {
+
+  .hamburger{
+  display: block;
+}
+.sign-cont{
+  display: none;
+}
+.menu-opt{
+  display: none;
+}
+.nav-cont{
+  justify-content: space-between;
+  margin-left: 30px;
+  margin-right: 30px;
+}
 }

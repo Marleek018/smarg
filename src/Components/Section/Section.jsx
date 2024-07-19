@@ -59,7 +59,7 @@ const Section = () => {
           <button>Get Started</button>
         </div>
         <div>
-          <img src={img2} alt="IMAGE" />
+          <img className="section-image" src={img2} alt="IMAGE" />
         </div>
       </div>
     </div>
